@@ -10,8 +10,8 @@
 ## Overview
 
 This project builds a data-driven soccer recruitment system that uses machine learning to
-identify **undervalued players** — talent whose on-field performance suggests they are worth
-more than their current market value. It is a "Moneyball for soccer" approach.
+identify **undervalued players** whose on-field performance suggests they are worth
+more than their current market value.
 
 The system performs three main tasks:
 
