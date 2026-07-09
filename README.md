@@ -71,17 +71,19 @@ achieving an 88.6% match rate.
 
 ## Project Pipeline
 
-Data Sources → Collection & Integration → Cleaning & Feature Engineering → PostgreSQL Database →
-Exploratory Data Analysis → Machine Learning → Player Similarity Analysis → Model Explainability →
-Undervalued Talent Identification → Tableau Dashboards → Recommendation System
+Data Sources → Collection & Integration → Cleaning & Feature Engineering → PostgreSQL Database → Exploratory Data Analysis → Machine Learning → Player Similarity Analysis → Model Explainability → Undervalued Talent Identification → Tableau Dashboards → Recommendation System
 
 ## Status
 
+- [x] Proposal paper
 - [x] Data collection (FBref + Transfermarkt)
 - [x] Data integration / join
 - [x] Data cleaning & formatting
 - [ ] Exploratory Data Analysis
-- [ ] Machine learning models
+- [ ] PostgreSQL Database
+- [ ] Machine Learning (predict value)
 - [ ] Undervalued talent identification
-- [ ] Similarity analysis
-- [ ] Dashboards & final paper
+- [ ] Player Similarity Analysis
+- [ ] Model Explainability (SHAP)
+- [ ] Tableau Dashboards
+- [ ] Final paper
