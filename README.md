@@ -2,7 +2,7 @@
 ### Identifying Undervalued Talent Through Machine Learning
 
 **Author:** Md Rafiul Islam Rafi
-**Course:** CISC 6080 — Capstone Project in Data Science (Fordham University)
+**Course:** CISC 6080 Capstone Project in Data Science (Fordham University)
 **Instructor:** Dr. Gary Weiss
 
 ---
