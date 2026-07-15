@@ -1,10 +1,11 @@
 # Soccer Recruitment System
 ### Identifying Undervalued Talent Through Machine Learning
 
-- **Author:** Md Rafiul Islam Rafi
+**Author:** Md Rafiul Islam Rafi
 
 **Course:** CISC 6080
-- **Instructor:** Dr. Gary Weiss
+
+**Instructor:** Dr. Gary Weiss
 
 ---
 
