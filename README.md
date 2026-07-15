@@ -1,4 +1,4 @@
-# Data-Driven Soccer Recruitment System
+# Soccer Recruitment System
 ### Identifying Undervalued Talent Through Machine Learning
 
 **Author:** Md Rafiul Islam Rafi
