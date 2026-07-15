@@ -38,10 +38,6 @@ The dataset combines two public sources for the 2025-26 season (top-5 European l
 The two sources were joined on a normalized player name + birth year (they share no common ID),
 achieving an 88.6% match rate.
 
-> **Note:** Following FBref's loss of its Opta data licence (January 2026), advanced metrics such
-> as xG and progressive passing are unavailable for the current season; the project uses the
-> available standard performance metrics.
-
 ---
 
 ## Repository Structure
