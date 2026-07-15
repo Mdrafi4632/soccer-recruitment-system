@@ -7,7 +7,6 @@
 
 **Instructor:** Dr. Gary Weiss
 
----
 
 ## Overview
 
@@ -24,7 +23,6 @@ The system performs three main tasks:
 3. **Player Similarity Analysis** — group statistically similar players (K-Means + PCA) to find
    cheaper alternatives to a target or departing player.
 
----
 
 ## Data
 
@@ -40,7 +38,6 @@ The dataset combines two public sources for the 2025-26 season (top-5 European l
 The two sources were joined on a normalized player name + birth year (they share no common ID),
 achieving an 88.6% match rate.
 
----
 
 ## Repository Structure
 
@@ -56,7 +53,6 @@ achieving an 88.6% match rate.
 └── docs/                              # proposal, report, and figures
 ```
 
----
 
 ## Methods & Tools
 
