@@ -79,7 +79,7 @@ Data Sources → Collection & Integration → Cleaning & Feature Engineering →
 - [x] Data collection (FBref + Transfermarkt)
 - [x] Data integration / join
 - [x] Data cleaning & formatting
-- [ ] Exploratory Data Analysis
+- [x] Exploratory Data Analysis
 - [ ] PostgreSQL Database
 - [ ] Machine Learning (predict value)
 - [ ] Undervalued talent identification
