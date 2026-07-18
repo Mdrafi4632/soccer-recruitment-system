@@ -67,6 +67,15 @@ achieving an 88.6% match rate.
 
 Data Sources → Collection & Integration → Cleaning & Feature Engineering → PostgreSQL Database → Exploratory Data Analysis → Machine Learning → Player Similarity Analysis → Model Explainability → Undervalued Talent Identification → Tableau Dashboards → Recommendation System
 
+
+## Machine Learning
+Predict player market value.
+Trains and compares three regression models (Linear Regression, Random Forest, XGBoost) with:
+  - 5-fold cross-validation
+  - hyperparameter tuning (RandomizedSearchCV) for Random Forest and XGBoost
+  - an actual vs predicted plot
+  - the trained best model saved to disk for reuse
+
 ## Status
 
 - [x] Proposal paper
