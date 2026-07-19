@@ -42,7 +42,6 @@ achieving an 88.6% match rate.
 ## Repository Structure
 
 ```
-.
 ├── README.md                          # this file
 ├── soccer_recruitment_dataset.csv     # final cleaned, analysis-ready dataset
 ├── data/                              # raw source files (git-ignored if large)
@@ -90,13 +89,13 @@ Random Forest, XGBoost) with:
 - Model Evaluation (MAE, RMSE, R²)
 - Feature Importance
 
-**Results (test set):**
+**Results:**
 
 | Model | MAE | RMSE | R² |
 |-------|-----|------|-----|
 | Linear Regression | €5.56M | €10.87M | 0.692 |
-| Random Forest (tuned) | €5.28M | €10.32M | 0.702 |
-| **XGBoost (tuned, best)** | **€4.96M** | **€9.84M** | **0.750** |
+| Random Forest | €5.28M | €10.32M | 0.702 |
+| **XGBoost** | **€4.96M** | **€9.84M** | **0.750** |
 
 **XGBoost** performed best, explaining about **75% of the variation** in player market value.
 Cross-validation was stable across folds (XGBoost R² = 0.757 ± 0.012), and the model relies on football-sensible drivers.
