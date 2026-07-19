@@ -111,7 +111,7 @@ Cross-validation was stable across folds (XGBoost R² = 0.757 ± 0.012), and the
 - [x] Data cleaning & formatting
 - [x] Exploratory Data Analysis
 - [ ] PostgreSQL Database
-- [ ] Machine Learning (predict value)
+- [x] Machine Learning (predict value)
 - [ ] Undervalued talent identification
 - [ ] Player Similarity Analysis
 - [ ] Model Explainability (SHAP)
