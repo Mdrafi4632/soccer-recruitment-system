@@ -76,6 +76,53 @@ Trains and compares three regression models (Linear Regression, Random Forest, X
   - an actual vs predicted plot
   - the trained best model saved to disk for reuse
 
+
+
+## Machine Learning
+
+Predict player market value. Trains and compares three regression models (Linear Regression,
+Random Forest, XGBoost) with:
+
+- 5-fold cross-validation
+- hyperparameter tuning (RandomizedSearchCV) for Random Forest and XGBoost
+- an actual vs predicted plot
+- the trained best model saved to disk for reuse
+
+Player Statistics
+        │
+        ▼
+Feature Engineering
+(Age², Contract Years, Position, League...)
+        │
+        ▼
+Machine Learning Models
+• Linear Regression
+• Random Forest
+• XGBoost
+        │
+        ▼
+Predicted Market Value
+        │
+        ▼
+Model Evaluation
+(MAE, RMSE, R²)
+        │
+        ▼
+Explain Predictions
+(Feature Importance)
+
+**Results (test set):**
+
+| Model | MAE | RMSE | R² |
+|-------|-----|------|-----|
+| Linear Regression | €5.56M | €10.87M | 0.692 |
+| Random Forest (tuned) | €5.28M | €10.32M | 0.702 |
+| **XGBoost (tuned, best)** | **€4.96M** | **€9.84M** | **0.750** |
+
+**XGBoost** performed best, explaining about **75% of the variation** in player market value.
+Cross-validation was stable across folds (XGBoost R² = 0.757 ± 0.012), and the model relies on football-sensible drivers.
+
+
 ## Status
 
 - [x] Proposal paper
