@@ -87,29 +87,8 @@ Random Forest, XGBoost) with:
 - hyperparameter tuning (RandomizedSearchCV) for Random Forest and XGBoost
 - an actual vs predicted plot
 - the trained best model saved to disk for reuse
-
-Player Statistics
-        │
-        ▼
-Feature Engineering
-(Age², Contract Years, Position, League...)
-        │
-        ▼
-Machine Learning Models
-• Linear Regression
-• Random Forest
-• XGBoost
-        │
-        ▼
-Predicted Market Value
-        │
-        ▼
-Model Evaluation
-(MAE, RMSE, R²)
-        │
-        ▼
-Explain Predictions
-(Feature Importance)
+- Model Evaluation (MAE, RMSE, R²)
+- Feature Importance
 
 **Results (test set):**
 
@@ -121,6 +100,7 @@ Explain Predictions
 
 **XGBoost** performed best, explaining about **75% of the variation** in player market value.
 Cross-validation was stable across folds (XGBoost R² = 0.757 ± 0.012), and the model relies on football-sensible drivers.
+
 
 
 ## Status
